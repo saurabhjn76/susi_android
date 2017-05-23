@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
     @BindView(R.id.email)
     TextInputLayout email;
     @BindView(R.id.email_input)
-    protected AutoCompleteTextView autoCompleteEmail;
+    public AutoCompleteTextView autoCompleteEmail;
     @BindView(R.id.password)
     TextInputLayout password;
     @BindView(R.id.log_in)

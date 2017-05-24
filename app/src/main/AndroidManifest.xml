@@ -23,14 +23,15 @@
             android:name=".activities.SettingsActivity"
             android:label="@string/settings_title"
             android:theme="@style/PreferenceFixTheme">
-            <activity
-                        android:name=".activities.ChangePasswordActivity"
-                        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-                      android:windowSoftInputMode="stateHidden|adjustResize" />
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.fossasia.susi.ai.activities.MainActivity" />
         </activity>
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".activities.SignUpActivity"
             android:theme="@style/SignUp_Theme"
